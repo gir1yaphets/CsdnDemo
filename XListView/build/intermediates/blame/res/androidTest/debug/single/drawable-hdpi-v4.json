@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/pengxiaolve/AndroidStudioProjects/CsdnDemo/XListView/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/ic_launcher.png",
+        "source": "/Users/pengxiaolve/AndroidStudioProjects/CsdnDemo/XListView/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/pengxiaolve/AndroidStudioProjects/CsdnDemo/XListView/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/default_ptr_flip_bottom.png",
+        "source": "/Users/pengxiaolve/AndroidStudioProjects/CsdnDemo/XListView/build/intermediates/bundles/debug/res/drawable-hdpi-v4/default_ptr_flip_bottom.png"
+    },
+    {
+        "merged": "/Users/pengxiaolve/AndroidStudioProjects/CsdnDemo/XListView/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4/xlistview_arrow.png",
+        "source": "/Users/pengxiaolve/AndroidStudioProjects/CsdnDemo/XListView/build/intermediates/bundles/debug/res/drawable-hdpi-v4/xlistview_arrow.png"
+    }
+]

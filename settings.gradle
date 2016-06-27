@@ -1,0 +1,4 @@
+include ':app', 'XListView'
+include ':XListView'
+include ':imageloadlibrary'
+include ':viewPagerlibrary'
