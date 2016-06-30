@@ -8,6 +8,7 @@ import org.apache.http.impl.client.DefaultHttpClient;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.InputStreamReader;
 
 /**
  * Created by pengxiaolve on 16/6/26.
@@ -49,12 +50,15 @@ public class HttpGetConnect {
         StringBuilder sb = new StringBuilder();
 
         if (inputStream != null) {
-            byte bytes[] = new byte[1024];
+
+//            byte bytes[] = new byte[1024];
+            char[] chars = new char[1024];//用字符流读取可避免部分中文乱码
             int len;
 
             try {
-                while ((len = inputStream.read(bytes)) != -1) {
-                    sb.append(new String(bytes, 0, len, "UTF-8"));
+                InputStreamReader reader = new InputStreamReader(inputStream, "UTF-8");
+                while ((len = reader.read(chars)) != -1) {
+                    sb.append(new String(chars, 0, len));
                 }
             }catch (IOException e) {
 

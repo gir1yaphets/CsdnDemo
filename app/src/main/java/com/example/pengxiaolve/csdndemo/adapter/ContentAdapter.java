@@ -101,7 +101,7 @@ public class ContentAdapter extends BaseAdapter {
             viewHolder = (ViewHolder) convertView.getTag();
         }
 
-        //为布局设值
+        //为布局控件设值
         switch (newsContentBean.getNewsType()) {
             case NewsContentBean.NewsContentType.TITLE_TYPE:
                 viewHolder.textView.setText(newsContentBean.getTitle());

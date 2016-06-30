@@ -76,6 +76,7 @@ public class NewsContentActivity extends Activity implements IXListViewLoadMore,
         mXListView.setPullLoadEnable(this);
         mXListView.setPullRefreshEnable(this);
         mXListView.setAdapter(mAdapter);
+        mXListView.NotRefreshAtBegin();
 
         mProgressBar = (ProgressBar) findViewById(R.id.id_newsContentPro);
 
